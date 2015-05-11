@@ -1,5 +1,5 @@
-#Chapel
 ##Inviting and Uniting a Generation to see God move in our city
+[www.chapelmovement.com](http://chapelmovement.com)
 
 ###History
   Chapel started out in a small church in South Vancouver with a couple youth groups coming together and believing God for something big to happen. Despite small numbers and seemingly insurmountable ambitions, the youth that came faithfully engaged with their whole hearts in worship. And it was contagious. Other youth groups joined, camps kids found community, and soon that little church in South Van couldn’t hold everyone.
