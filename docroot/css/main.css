@@ -101,9 +101,6 @@ a {
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
-  #hamburger {
-    display: none;
-  }
 
   #nav a:hover {
     text-shadow: 0 0 15px #fff;
@@ -123,43 +120,25 @@ a {
 			float: none;
 			margin: 11px;
 		}
-  #nav li:last-child {
-    margin-left: 0px;
-  }
 	 
 	#nav #countdown {
 		float: right;
 		font-size: 170%;
 		font-weight: bold;
 	}
-    @media (min-width: 905px) {
-		  #nav #countdown:before {
-		  	content: 'next chapel in ';
-		  
-		  	text-transform: lowercase;
-		  	font-size: 56%;
-		  	font-weight: 100;
-		  
-		  	position: relative;
-		  	float: left;
-		  	top: 1px;
-		  	padding-right: 10px;
-		  	width: 102px;
-		  }
-    }
-    @media (max-width: 905px) and (min-width: 790px) {
-      #nav #countdown:after {
-        content: 'until the next Chapel';
-        text-transform: lowercase;
-        font-size: 56%;
-        font-weight: 100;
-
-        width: auto;
-        position: absolute;
-        top: 46px;
-        right: 46px;
-      }
-    }
+		#nav #countdown:before {
+			content: 'next chapel in ';
+		
+			text-transform: lowercase;
+			font-size: 56%;
+			font-weight: 100;
+		
+			position: relative;
+			float: left;
+			top: 1px;
+			padding-right: 10px;
+			width: 102px;
+		}
 
 /* Dropdown Menu */
 .dropdown {
@@ -189,7 +168,7 @@ a {
  **********************************/
 #front {
 	width: 100%;
-	min-width: 790px;
+	min-width: 1000px;
 	clear: both;
 	display: inline-block;
 
