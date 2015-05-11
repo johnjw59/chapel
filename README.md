@@ -1,4 +1,4 @@
-##Inviting and Uniting a Generation to see God move in our city
+##Chapel - Inviting and Uniting a Generation to see God move in our city
 [www.chapelmovement.com](http://chapelmovement.com)
 
 ###History
