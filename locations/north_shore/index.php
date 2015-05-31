@@ -21,18 +21,16 @@
         </div>
   
         <div id="upcoming">
-          <div class="event">
-            <span class="date">May 29th</span>
-            <span class="name">Chapel North Shore</span>
-            <span class="time">7pm</span>
-            <span class="location">Queen Mary Community School, 230 Keith Road West, North Vancouver</span>
-          </div>
-          <div class="event">
-            <span class="date">June 20th</span>
-            <span class="name">Chapel Unified</span>
-            <span class="time">7pm</span>
-            <span class="location">Westside Church, 777 Homer Street, Vancouver</span>
-          </div>
+          <?php foreach (upcoming_chapels('north_shore') as $event): ?>
+            <div class="event">
+              <?php if ($event['event_link']){ print('<a href="' . $event['event_link'] . '" target="_blank">'); } ?>
+              <div class="date"><?= date('F jS', strtotime($event['date'])); ?></div>
+              <div class="name"><?= $event['title']; ?></div>
+              <div class="time"><?= date('ga', strtotime($event['date'])); ?></div>
+              <div class="location"><?= $event['location']; ?></div>
+              <?php if ($event['event_link']){ print('</a>'); } ?>
+            </div>
+          <?php endforeach; ?>
          </div>
       </div><!-- end of left -->
 

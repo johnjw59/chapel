@@ -20,20 +20,17 @@
           <img class="label" src="/img/label-upcoming.png" alt="Upcoming Chapels" />
         </div>
   
-
         <div id="upcoming">
-         <div class="event">
-           <div class="date">May 29th</div>
-           <div class="name">Chapel Vancouver</div>
-           <div class="time">7pm</div>
-           <div class="location">John Oliver Secondary, 530 E 41st Ave, Vancouver</div>
-         </div>
-         <div class="event">
-            <span class="date">June 20th</span>
-            <span class="name">Chapel Unified</span>
-            <span class="time">7pm</span>
-            <span class="location">Westside Church, 777 Homer Street, Vancouver</span>
-          </div>
+          <?php foreach (upcoming_chapels('vancouver') as $event): ?>
+            <div class="event">
+              <?php if ($event['event_link']){ print('<a href="' . $event['event_link'] . '" target="_blank">'); } ?>
+              <div class="date"><?= date('F jS', strtotime($event['date'])); ?></div>
+              <div class="name"><?= $event['title']; ?></div>
+              <div class="time"><?= date('ga', strtotime($event['date'])); ?></div>
+              <div class="location"><?= $event['location']; ?></div>
+              <?php if ($event['event_link']){ print('</a>'); } ?>
+            </div>
+          <?php endforeach; ?>
         </div>
       </div><!-- end of left -->
 
