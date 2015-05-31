@@ -3,16 +3,16 @@
   <head>
     <title><?php echo($title); ?></title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <link rel="shortcut icon" href="<?php echo($base_url); ?>/favicon.png">
-    <link rel="apple-touch-icon" href="<?php echo($base_url); ?>/favicon.png">
+    <link rel="shortcut icon" href="/favicon.png">
+    <link rel="apple-touch-icon" href="/favicon.png">
     <meta name="keywords" content="Chapel, Chape, Chaple, Vancouver, North Shore, Tri-cities, Worship, Youth, Christian, Concert, Movement, chapelmvmt, #chapelmvmt, Band">
     <meta name="description" content="Chapel's mission is to invite and unite a generation of young people to see God move in our city. Through passionate worship, inspiring and convicting messages, and a community of awesome people, we are taking a bold stand for Jesus as one voice.">
     
-    <link rel="stylesheet" href="<?php echo($base_url); ?>/css/icomoon.css" type="text/css" />
-    <link rel="stylesheet" href="<?php echo($base_url); ?>/css/main.css" type="text/css" />
+    <link rel="stylesheet" href="/css/icomoon.css" type="text/css" />
+    <link rel="stylesheet" href="/css/main.css" type="text/css" />
     <link rel="stylesheet" media="(max-width: 790px)" href="/css/mobile.css" type="text/css" />
 
-    <script type="text/javascript" src="<?php echo($base_url); ?>/js/lib/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="/js/lib/jquery-1.7.1.min.js"></script>
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -23,15 +23,15 @@
     </script>
 
 
-    <script type="text/javascript" src="<?php echo($base_url); ?>/js/countdown.js"></script>
-    <script type="text/javascript" src="<?php echo($base_url); ?>/js/verticalcenter.js"></script>
-    <script type="text/javascript" src="<?php echo($base_url); ?>/js/dynamicheight.js"></script>
+    <script type="text/javascript" src="/js/countdown.js"></script>
+    <script type="text/javascript" src="/js/verticalcenter.js"></script>
+    <script type="text/javascript" src="/js/dynamicheight.js"></script>
     <script type="text/javascript" src="/js/mobile_menu.js"></script>
 
     <script>
         $(document).ready(function() {
-          count("<?php echo $next_chapel; ?>");
-          setInterval(function(){count("<?php echo $next_chapel; ?>");}, 1000);
+          count(<?= $next_chapel; ?>*1000);
+          setInterval(function(){count(<?= $next_chapel; ?>*1000);}, 1000);
         });
     </script>
     
