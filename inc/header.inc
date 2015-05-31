@@ -5,7 +5,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <link rel="shortcut icon" href="/favicon.png">
     <link rel="apple-touch-icon" href="/favicon.png">
-    <meta name="keywords" content="Chapel, Chape, Chaple, Vancouver, North Shore, Tri-cities, Worship, Youth, Christian, Concert, Movement, chapelmvmt, #chapelmvmt, Band">
+    <meta name="keywords" content="Chapel, Chape, Chaple, Vancouver, North Shore, Tri-cities, Worship, Youth, Christian, Concert, Movement, chapelmvmt, #chapelmvmt, Band, Jonathan Mitchell, jo vancouver, j o vancouver, Chapel j o, shore chapel">
     <meta name="description" content="Chapel's mission is to invite and unite a generation of young people to see God move in our city. Through passionate worship, inspiring and convicting messages, and a community of awesome people, we are taking a bold stand for Jesus as one voice.">
     
     <link rel="stylesheet" href="/css/icomoon.css" type="text/css" />
