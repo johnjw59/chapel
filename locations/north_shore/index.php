@@ -2,7 +2,7 @@
   require_once('../../inc/init.inc');
 
   $title = 'North Shore | Chapel';
-  $background_image = $base_url . '/img/back_north_shore.jpg';
+  $background_image = '/img/back_north_shore.jpg';
   $javascript = 'window.onresize = dynamicHeight;';
 
   $fbfeed_path = '../../fbfeed';
@@ -16,8 +16,8 @@
 
       <div class="left">
         <div class="logo-labels clearfix">
-          <img class="title" src="<?php echo($base_url); ?>/img/logo-north_shore.png" alt="Chapel North Shore" onload="dynamicHeight();" />
-          <img class="label" src="<?php echo($base_url); ?>/img/label-upcoming.png" alt="Upcoming Chapels" />
+          <img class="title" src="/img/logo-north_shore.png" alt="Chapel North Shore" onload="dynamicHeight();" />
+          <img class="label" src="/img/label-upcoming.png" alt="Upcoming Chapels" />
         </div>
   
         <div id="upcoming">
@@ -37,7 +37,7 @@
       </div><!-- end of left -->
 
       <div class="right">
-        <img class="label" src="<?php echo($base_url); ?>/img/label-community.png" alt="Community" />
+        <img class="label" src="/img/label-community.png" alt="Community" />
         <span class="invite">
           Want to keep up with Chapel North Shore?<br /> 
           Join our <a href="http://www.facebook.com/520834214713287" target="_blank">Facebook Group</a>.
@@ -53,5 +53,5 @@
       </div><!-- end of right -->
     </div><!-- end of content -->
 
-<?php require_once($base_url . '../../inc/footer.inc'); ?>
+<?php require_once('../../inc/footer.inc'); ?>
 

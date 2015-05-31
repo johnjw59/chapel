@@ -2,7 +2,7 @@
   require_once('../inc/init.inc');
 
   $title = 'Contact | Chapel';
-  $background_image = $base_url . '/img/back_contact.jpg';
+  $background_image = '/img/back_contact.jpg';
   
   require_once('../inc/header.inc');
   require_once('../inc/nav.inc');
@@ -10,7 +10,7 @@
   
     <div id="contact" class="content clearfix">
       <div class="left">
-        <img class="title" src="<?php echo($base_url); ?>/img/text-contact.png" alt="Contact" />
+        <img class="title" src="/img/text-contact.png" alt="Contact" />
       </div>
 
       <div class="right">

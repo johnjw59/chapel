@@ -2,7 +2,7 @@
   require_once('../../inc/init.inc');
 
   $title = 'Tri-cities | Chapel';
-  $background_image = $base_url . '/img/back_tri-cities.jpg';
+  $background_image = '/img/back_tri-cities.jpg';
   $javascript = 'window.onresize = dynamicHeight;';
 
   $fbfeed_path = '../../fbfeed';
@@ -16,8 +16,8 @@
 
       <div class="left">
         <div class="logo-labels clearfix">
-          <img class="title" src="<?php echo($base_url); ?>/img/logo-tri-cities.png" alt="Chapel Tri-cities" onload="dynamicHeight();" />
-          <img class="label" src="<?php echo($base_url); ?>/img/label-upcoming.png" alt="Upcoming Chapels" />
+          <img class="title" src="/img/logo-tri-cities.png" alt="Chapel Tri-cities" onload="dynamicHeight();" />
+          <img class="label" src="/img/label-upcoming.png" alt="Upcoming Chapels" />
         </div>
 
         <div id="upcoming">
@@ -37,7 +37,7 @@
       </div><!-- end of left -->
 
       <div class="right">
-        <img class="label" src="<?php echo($base_url); ?>/img/label-community.png" alt="Community" />
+        <img class="label" src="/img/label-community.png" alt="Community" />
         <span class="invite">
           Want to keep up with Chapel Tri-cities?<br /> 
           Join our <a href="http://www.facebook.com/733198850086184" target="_blank">Facebook Group</a>.

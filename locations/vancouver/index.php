@@ -2,7 +2,7 @@
   require_once('../../inc/init.inc');
 
   $title = 'Vancouver | Chapel';
-  $background_image = $base_url . '/img/back_vancouver.jpg';
+  $background_image = '/img/back_vancouver.jpg';
   $javascript = 'window.onresize = dynamicHeight;';
 
   $fbfeed_path = '../../fbfeed';
@@ -16,8 +16,8 @@
 
       <div class="left clearfix">
         <div class="logo-labels clearfix">
-          <img class="title" src="<?php echo($base_url); ?>/img/logo-vancouver.png" alt="Chapel Vancouver" onload="dynamicHeight();" />
-          <img class="label" src="<?php echo($base_url); ?>/img/label-upcoming.png" alt="Upcoming Chapels" />
+          <img class="title" src="/img/logo-vancouver.png" alt="Chapel Vancouver" onload="dynamicHeight();" />
+          <img class="label" src="/img/label-upcoming.png" alt="Upcoming Chapels" />
         </div>
   
 
@@ -38,7 +38,7 @@
       </div><!-- end of left -->
 
       <div class="right">
-        <img class="label" src="<?php echo($base_url); ?>/img/label-community.png" alt="Community" />
+        <img class="label" src="/img/label-community.png" alt="Community" />
         <div class="invite">
           Want to keep up with Chapel Vancouver?<br /> 
           Join our <a href="http://www.facebook.com/283821668334514" target="_blank">Facebook Group</a>.
