@@ -43,7 +43,7 @@
         <?php
           $custom = array(
             'id' => '520834214713287',
-            'access_token' => 'CAAUyS2LvayQBAAAHiuZCZCUXzl84iIZAGuOjT6yvZAo4j8yJsFZAIX6RYl7BZBxRMiOeleyXFkQdFQnOMKvQcuRAcGJNZBdGisl912IPbkMZAFqI7ZCpRIOgsx4fp3EDEngDubw6XoBwTRjGH3GeolIV8u7dSQ7v6fMfoBTQT4qFOEQyeYGWQDiorT7qiuGZBbFltZCcxsNdcxSBQZDZD',
+            'access_token' => 'CAAUyS2LvayQBAGK9XxSfv3iunFrhJz2UwMBxGENmZA0bNlk7zPF2VgPkwir0pSQhvOnLZCtSZCC28B04LuqgbIcBbxoLkn2XGwODjguTZCi9xgmXcdnUDfhuwjkRX2wKdXfJrejzLf7vO607178e53bvXDOjn679YXZCW1y3abYoDNYxQJoVckdoaiShMkjSt1q9SRpUZA3QZDZD',
           );
           fbFeed($settings, $custom);
           // https://smashballoon.com/custom-facebook-feed/docs/get-extended-facebook-user-access-token/
