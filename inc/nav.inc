@@ -9,7 +9,7 @@
             <li><a href="/locations/tri-cities">Tri-Cities</a></li>
           </ul>
         </li>
-        <li><a href="/music">Album</a></li>
+        <li><a href="/music">Music</a></li>
         <li><a href="/about">About</a></li>
         <li><a href="/give">Give</a></li>
         <li><a href="/contact">Contact</a></li>

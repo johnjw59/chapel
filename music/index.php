@@ -1,16 +1,19 @@
 <?php 
   require_once('../inc/init.inc');
 
-  $title = 'Album | Chapel';
-  $background_image = '/img/back_album.jpg';
+  $title = 'Music | Chapel';
+  $background_image = '/img/back_music.jpg';
+
+  // Go straight to bandcamp until the album is up on itunes and friends.
+  $javascript = 'window.location="https://chapelworship.bandcamp.com/";';
   
   require_once('../inc/header.inc');
   require_once('../inc/nav.inc');
 ?>
   
-    <div id="about" class="content clearfix">
+    <div id="music" class="content clearfix">
       <div class="left">
-        <img class="title" src="/img/text-contact.png" alt="Chapel Album">
+        <img class="title" src="/img/text-music.png" alt="Music">
       </div>
 
       <div class="right center"> 
