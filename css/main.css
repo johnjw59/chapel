@@ -82,7 +82,15 @@ a {
 		height: 100%;
 	}
 
-
+.center {
+  text-align: center;
+}
+.img-left {
+  float: left;
+}
+.img-right {
+  float: right;
+}
 /**********************************
  *          Navigation            *
  **********************************/
@@ -220,6 +228,14 @@ a {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
   }
+    .content .right h2 {
+      padding-bottom: 10px;
+      border-bottom: 1px solid #ddd;
+
+      font-size: 150%;
+      font-weight: 100;
+      line-height: 135%;
+    }
   	.content .right .give-link {
   		width: 60%;
   		margin-left: 20%;
@@ -228,6 +244,14 @@ a {
   	.content .right a {
   		text-decoration: underline;
   	}
+    .content .right .album-link {
+      width: 130px;
+    }
+    .content .right .img-wrapper {
+      width: 500px;
+      margin-left: auto;
+      margin-right: auto;
+    }
   .content .label {
     float: right;
     width: 65%;
