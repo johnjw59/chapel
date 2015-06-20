@@ -3,8 +3,8 @@
    * Check my facebook events for new Chapels and add the link to the database.
    */
   require_once('../inc/init.inc');
-  define('FACEBOOK_SDK_V4_SRC_DIR', 'facebook-sdk/src/Facebook/');
-  require 'facebook-sdk/autoload.php';
+  define('FACEBOOK_SDK_V4_SRC_DIR', '../lib/facebook-sdk/src/Facebook/');
+  require '../lib/facebook-sdk/autoload.php';
 
   use Facebook\FacebookSession;
   use Facebook\FacebookRequest;

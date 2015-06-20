@@ -5,7 +5,7 @@
   $background_image = '/img/back_vancouver.jpg';
   $javascript = 'window.onresize = dynamicHeight;';
 
-  $fbfeed_path = '../../fbfeed';
+  $fbfeed_path = '../../lib/fbfeed';
   include($fbfeed_path . '/fbfeed-settings.php');
 
   require_once('../../inc/header.inc');

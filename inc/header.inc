@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="/css/main.css" type="text/css" />
     <link rel="stylesheet" media="(max-width: 790px)" href="/css/mobile.css" type="text/css" />
 
-    <script type="text/javascript" src="/js/lib/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="/lib/jquery-1.7.1.min.js"></script>
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
