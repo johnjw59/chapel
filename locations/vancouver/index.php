@@ -3,7 +3,9 @@
 
   $title = 'Vancouver | Chapel';
   $background_image = '/img/back_vancouver.jpg';
-  $javascript = 'window.onresize = dynamicHeight;';
+  $scripts = array(
+    '<script type="javascript/text">window.onresize = dynamicHeight;</script>',
+  );
 
   $fbfeed_path = '../../fbfeed';
   include($fbfeed_path . '/fbfeed-settings.php');

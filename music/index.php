@@ -5,7 +5,9 @@
   $background_image = '/img/back_music.jpg';
 
   // Go straight to bandcamp until the album is up on itunes and friends.
-  //$javascript = 'window.location="https://chapelworship.bandcamp.com/";';
+  $scripts = array(
+    // '<script type="text/javascript">window.location="https://chapelworship.bandcamp.com/";</script>',
+  );
   
   require_once('../inc/header.inc');
   require_once('../inc/nav.inc');

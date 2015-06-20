@@ -29,15 +29,19 @@
     <script type="text/javascript" src="/js/mobile_menu.js"></script>
 
     <script>
+        // Launch countdown clock.
         $(document).ready(function() {
-          count(<?= $next_chapel; ?>*1000);
-          setInterval(function(){count(<?= $next_chapel; ?>*1000);}, 1000);
+          count(<?php print $next_chapel; ?>*1000);
+          setInterval(function(){count(<?php print $next_chapel; ?>*1000);}, 1000);
         });
     </script>
     
     <?php
-      if (isset($javascript)) {
-        echo('<script type="text/javascript">' . $javascript . '</script>');
+      // print any scripts local to the page.
+      if (isset($scripts)) {
+        foreach ($scripts as $script) {
+          print $script;
+        }
       }
     ?>
   </head>
