@@ -23,11 +23,11 @@
         <p>You can download it from Bandcamp for <i>free</i>:</p>
         <a href="http://bandcamp.com"><img src="https://s1.bcbits.com/img/buttons/bandcamp_130x27_white.png"></a>
         <p>You can also support us by buying the album from iTunes:</p>
-        <a href=""><img src="/img/itunes.png" width="200px"></a>
+        <a href=""><img src="/img/itunes.png" width="170px"></a>
         <p>Or, if streaming is more your thing, you can check it out on these sites:</p>
         <div class="img-wrapper clearfix">
-          <a href=""><img class="left" width="200px" src="/img/rdio.png"></a>
-          <a href=""><img class="right" width="200px" src="/img/spotify.jpg"></a>
+          <a href=""><img class="left" width="180px" src="/img/rdio.png"></a>
+          <a href=""><img class="right" width="180px" src="/img/spotify.jpg"></a>
         </div>
       </div><!-- end of right -->
     </div><!-- end of content -->

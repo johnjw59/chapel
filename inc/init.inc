@@ -2,6 +2,7 @@
   require_once('conn.inc');
 	$base_url = 'http://' . getenv('HTTP_HOST');
 
+
   try {
     global $db;
     $db = new PDO('mysql:host=localhost;dbname='. $db_name, $db_user, $db_pass);
