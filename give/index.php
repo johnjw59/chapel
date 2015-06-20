@@ -9,11 +9,11 @@
 ?>
   
     <div id="about" class="content clearfix">
-      <div class="left">
+      <div class="pane-left">
         <img class="title" src="/img/text-give.png" alt="Give" />
       </div>
 
-      <div class="right">
+      <div class="pane-right">
         <p>
           Chapel relies on the donations of churches and individuals to fund it’s ministry. If you feel called to give to this movement, please click the image below.
         </p>

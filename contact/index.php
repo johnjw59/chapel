@@ -9,11 +9,11 @@
 ?>
   
     <div id="contact" class="content clearfix">
-      <div class="left">
+      <div class="pane-left">
         <img class="title" src="/img/text-contact.png" alt="Contact" />
       </div>
 
-      <div class="right">
+      <div class="pane-right">
         <p>
           Under Contruction.
         </p>

@@ -14,7 +14,7 @@
 
     <div id="location" class="content clearfix">
 
-      <div class="left clearfix">
+      <div class="pane-left clearfix">
         <div class="logo-labels clearfix">
           <img class="title" src="/img/logo-vancouver.png" alt="Chapel Vancouver" onload="dynamicHeight();" />
           <img class="label" src="/img/label-upcoming.png" alt="Upcoming Chapels" />
@@ -34,7 +34,7 @@
         </div>
       </div><!-- end of left -->
 
-      <div class="right">
+      <div class="pane-right">
         <img class="label" src="/img/label-community.png" alt="Community" />
         <div class="invite">
           Want to keep up with Chapel Vancouver?<br /> 

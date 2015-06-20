@@ -9,11 +9,11 @@
 ?>
   
     <div id="about" class="content clearfix">
-      <div class="left">
+      <div class="pane-left">
         <img class="title" src="/img/text-about.png" alt="About" />
       </div>
 
-      <div class="right">
+      <div class="pane-right">
         <span class="videoWrapper">
           <iframe width="560" height="315" src="//www.youtube.com/embed/c_XF5bQH9zA?wmode=transparent&amp;rel=0&amp;autohide=1&amp;showinfo=0&amp;enablejsapi=1" frameborder="0" allowfullscreen="allowfullscreen" webkitallowfullscreen="webkitAllowFullScreen" mozallowfullscreen="mozallowfullscreen"></iframe>
         </span>
