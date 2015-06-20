@@ -234,6 +234,7 @@ a {
 
       font-size: 150%;
       font-weight: 100;
+      text-align: center;
       line-height: 135%;
     }
   	.content .pane-right .give-link {
@@ -297,17 +298,14 @@ a {
   #location .pane-right a:hover {
     text-decoration: none;
   }
-  #location .pane-right .invite {
+  #location .pane-right h2 {
     position: absolute;
     width: 44%;
     max-width: 687px;
     margin-top: 7px;
     padding-bottom: 25px;
-    border-bottom: 1px solid #ddd;
 
-    text-align: center;
     font-size: 130%;
-    line-height: 135%;
     color: #ddd;
   }
 

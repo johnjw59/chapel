@@ -36,10 +36,10 @@
 
       <div class="pane-right">
         <img class="label" src="/img/label-community.png" alt="Community" />
-        <span class="invite">
+        <h2>
           Want to keep up with Chapel Tri-cities?<br /> 
           Join our <a href="http://www.facebook.com/733198850086184" target="_blank">Facebook Group</a>.
-        </span>
+        </h2>
         <?php
           $custom = array(
             'id' => '733198850086184',
