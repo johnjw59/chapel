@@ -6,7 +6,7 @@
 
   // Go straight to bandcamp until the album is up on itunes and friends.
   $scripts = array(
-    // '<script type="text/javascript">window.location="https://chapelworship.bandcamp.com/";</script>',
+    '<script type="text/javascript">window.location="https://chapelworship.bandcamp.com/";</script>',
   );
   
   require_once('../inc/header.inc');
