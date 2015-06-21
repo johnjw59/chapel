@@ -23,17 +23,25 @@
         </div>
   
         <div id="upcoming">
-          <?php foreach (upcoming_chapels('north_shore') as $event): ?>
-            <div class="event">
-              <?php if ($event['event_link']){ print('<a href="' . $event['event_link'] . '" target="_blank">'); } ?>
-              <div class="date"><?= date('F jS', strtotime($event['date'])); ?></div>
-              <div class="name"><?= $event['title']; ?></div>
-              <div class="time"><?= date('ga', strtotime($event['date'])); ?></div>
-              <div class="location"><?= $event['location']; ?></div>
-              <?php if ($event['event_link']){ print('</a>'); } ?>
+        <?php 
+          $events = upcoming_chapels('vancouver');
+          if ($events):
+            foreach ($chapels as $event): ?>
+              <div class="event">
+                <?php if ($event['event_link']){ print('<a href="' . $event['event_link'] . '" target="_blank">'); } ?>
+                <div class="date"><?= date('F jS', strtotime($event['date'])); ?></div>
+                <div class="name"><?= $event['title']; ?></div>
+                <div class="time"><?= date('ga', strtotime($event['date'])); ?></div>
+                <div class="location"><?= $event['location']; ?></div>
+                <?php if ($event['event_link']){ print('</a>'); } ?>
+              </div>
+            <?php endforeach; ?>
+          <?php else: ?>
+            <div class="checkback">
+              Check back soon for more Chapel dates!
             </div>
-          <?php endforeach; ?>
-         </div>
+          <?php endif; ?>
+        </div>
       </div><!-- end of left -->
 
       <div class="pane-right">

@@ -366,6 +366,18 @@ a {
       #upcoming .event .ticket:hover {
         background-color: rgba(0, 0, 0, 0.8);
       }
+  #upcoming .checkback {
+    font-size: 115%;
+    text-align: center;
+    font-weight: 500;
+
+    padding: 25px;
+    background-color: rgba(0, 0, 0, 0.6);
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
 
 
 /**********************************

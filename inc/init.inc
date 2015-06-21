@@ -22,7 +22,7 @@
    */
   function upcoming_chapels($location) {
     global $db;
-    $query = $db->prepare("SELECT * FROM common UNION SELECT * FROM " . $location . " WHERE date >= CURDATE() ORDER BY date ASC;");
+    $query = $db->prepare("SELECT * FROM common WHERE date >= CURDATE() UNION SELECT * FROM " . $location . " WHERE date >= CURDATE() ORDER BY date ASC;");
     $query->execute();
     return $query->fetchAll();
   }
