@@ -26,8 +26,8 @@
         <a href=""><img src="/img/itunes.png" width="170px" alt="Buy the album on iTunes"></a>
         <p>Or, if streaming is more your thing, you can check it out on these sites:</p>
         <div class="img-wrapper clearfix">
-          <a href=""><img class="left" width="180px" src="/img/rdio.png" alt="Listen to the album on Spotify"></a>
-          <a href=""><img class="right" width="180px" src="/img/spotify.jpg" alt="Listen to the album on Rdio"></a>
+          <a href=""><img class="left" width="170px" src="/img/rdio.png" alt="Listen to the album on Spotify"></a>
+          <a href=""><img class="right" width="190px" src="/img/spotify.png" alt="Listen to the album on Rdio"></a>
         </div>
       </div><!-- end of right -->
     </div><!-- end of content -->
