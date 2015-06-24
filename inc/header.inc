@@ -1,12 +1,12 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
   <head>
-    <title><?php echo($title); ?></title>
+    <title><?php print $title; ?></title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <link rel="shortcut icon" href="/favicon.png">
     <link rel="apple-touch-icon" href="/favicon.png">
     <meta name="keywords" content="Chapel, Chape, Chaple, Movement, chapelmvmt, #chapelmvmt, Vancouver, North Shore, Tri-cities, Worship, Youth, Christian, Concert, Band, Jonathan Mitchell, jo vancouver, j o vancouver, Chapel j o, shore chapel, Youth Unlimited">
-    <meta name="description" content="Chapel is a monthly Friday night worship event for high school youth and young adult leaders, presented by Youth Unlimited, with locations in Vancouver, the North Shore and the Tri-cities. Chapel's mission is to invite and unite a generation of young people to see God move in our city; to create a movement, not a moment. Through passionate worship, inspiring and convicting messages, and a community of awesome people, we are taking a bold stand for Jesus as one voice. #chapelmvmt">
+    <meta name="description" content="<?php print $description; ?>">
     
     <link rel="stylesheet" href="/css/icomoon.css" type="text/css" />
     <link rel="stylesheet" href="/css/main.css" type="text/css" />
@@ -45,4 +45,4 @@
       }
     ?>
   </head>
-  <body style="background-image: url(<?php echo($background_image); ?>);">
+  <body style="background-image: url(<?php print $background_image; ?>);">
