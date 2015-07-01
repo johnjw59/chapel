@@ -6,7 +6,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<style type="text/css">
 			body {
-					background: #000 url('http://www.chapelvancouver.com/img/404.jpg') no-repeat center top fixed ; 
+					background: #000 url('http://www.chapelmovement.com/img/404.jpg') no-repeat center top fixed ; 
 					-webkit-background-size: cover;
 					-moz-background-size: cover;
 					-o-background-size: cover;
@@ -39,7 +39,7 @@
 	<body>
 		<div id="message">
 			<h1><span id="error">404</span> - Page not found</h1>
-			<p>Whelp, you've done it now. Better <a href="http://www.chapelvancouver.com">retreat back to safety</a> before anything goes wrong.</p>
+			<p>Whelp, you've done it now. Better <a href="http://www.chapelmovement.com">retreat back to safety</a> before anything goes wrong.</p>
 		</div>
 	</body>
 </html>
