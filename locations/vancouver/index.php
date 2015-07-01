@@ -24,8 +24,8 @@
   
         <div id="upcoming">
         <?php 
-          $events = upcoming_chapels('vancouver');
-          if ($events):
+          $chapels = upcoming_chapels('vancouver');
+          if ($chapels):
             foreach ($chapels as $event): ?>
               <div class="event">
                 <?php if ($event['event_link']){ print('<a href="' . $event['event_link'] . '" target="_blank">'); } ?>
