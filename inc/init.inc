@@ -13,7 +13,7 @@
   }
 
   // get the time of the next chapel (use Vancouver as the default).
-  $next_chapel = $db->prepare("SELECT date FROM common UNION SELECT date FROM vancouver WHERE date >= CURDATE() ORDER BY date ASC LIMIT 1;");
+  $next_chapel = $db->prepare("SELECT date FROM common WHERE date >= CURDATE() UNION SELECT date FROM vancouver WHERE date >= CURDATE() ORDER BY date ASC LIMIT 1;");
   $next_chapel->execute();
   $next_chapel = strtotime($next_chapel->fetch()['date']);
 

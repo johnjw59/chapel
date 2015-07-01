@@ -1,19 +1,12 @@
-function count (date) {
-  // set the date we're counting down to
-  var target_date = new Date(date).getTime();
-  
-  // variables for time units
+function count (target_date) {  
   var days, hours, minutes, seconds;
-  
-  // get tag element
   var countdown = document.getElementById('countdown');
   
   // find the amount of "seconds" between now and target
   var current_date = new Date().getTime();
   var seconds_left = (target_date - current_date) / 1000;
-  
+
   // do some time calculations
-  seconds_left = seconds_left % 86400;
   if (seconds_left >= 0) {
     days = parseInt(seconds_left / 86400);
     seconds_left = seconds_left % 86400;

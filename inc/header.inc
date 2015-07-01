@@ -31,8 +31,8 @@
     <script>
         // Launch countdown clock.
         $(document).ready(function() {
-          count(<?php print $next_chapel; ?>*1000);
-          setInterval(function(){count(<?php print $next_chapel; ?>*1000);}, 1000);
+          count(<?php print $next_chapel * 1000; ?>);
+          setInterval(function(){count(<?php print $next_chapel * 1000; ?>);}, 1000);
         });
     </script>
     
