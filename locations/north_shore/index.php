@@ -53,10 +53,9 @@
         <?php
           $custom = array(
             'id' => '520834214713287',
-            'access_token' => 'CAAUyS2LvayQBAGK9XxSfv3iunFrhJz2UwMBxGENmZA0bNlk7zPF2VgPkwir0pSQhvOnLZCtSZCC28B04LuqgbIcBbxoLkn2XGwODjguTZCi9xgmXcdnUDfhuwjkRX2wKdXfJrejzLf7vO607178e53bvXDOjn679YXZCW1y3abYoDNYxQJoVckdoaiShMkjSt1q9SRpUZA3QZDZD',
+            'access_token' => $fb_access,
           );
           fbFeed($settings, $custom);
-          // https://smashballoon.com/custom-facebook-feed/docs/get-extended-facebook-user-access-token/
         ?>
       </div><!-- end of right -->
     </div><!-- end of content -->
