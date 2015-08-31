@@ -7,6 +7,7 @@
             <li><a href="/locations/vancouver">Vancouver</a></li>
             <li><a href="/locations/north_shore">North Shore</a></li>
             <li><a href="/locations/tri-cities">Tri-Cities</a></li>
+            <li><a href="/locations/richmond">Richmond</a></li>
           </ul>
         </li>
         <li><a href="/music">Music</a></li>
