@@ -260,6 +260,27 @@ a {
     min-width: 157px;
   }
 
+  input, textarea {
+    margin-bottom: 8px;
+  }
+  
+  .error, .success {
+    font-size: 100%;
+    border: 1px solid;
+    padding: 3px;
+    display: inline-block;
+  }
+  
+  .error {
+    background: #ffc0c0;
+    color: #900;
+  }
+  
+  .success {
+    background: #b3ff69;
+    color: #4fa000;
+  }
+
 
 /**********************************
  *           Locations            *
