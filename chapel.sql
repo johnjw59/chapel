@@ -8,7 +8,7 @@
 -- PHP Version: 5.4.23
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-SET time_zone = "+00:00";
+SET time_zone = "-08:00";
 
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -69,6 +69,20 @@ CREATE TABLE IF NOT EXISTS `tri-cities` (
 --
 
 CREATE TABLE IF NOT EXISTS `vancouver` (
+  `date` datetime NOT NULL,
+  `title` text NOT NULL,
+  `location` text NOT NULL,
+  `event_link` text,
+  PRIMARY KEY (`date`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `richmond`
+--
+
+CREATE TABLE IF NOT EXISTS `richmond` (
   `date` datetime NOT NULL,
   `title` text NOT NULL,
   `location` text NOT NULL,
