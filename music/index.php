@@ -1,7 +1,7 @@
 <?php 
   require_once('../inc/init.inc');
 
-  $title = 'Music | Chapel';
+  $title = 'Album | Chapel';
   $background_image = '/img/back_music.jpg';
   $description = "Download the Chapel Worship album from Bandcamp or iTunes or listen to it on Spotify or Rdio! Build Your Kingdom Here, One Thing Remains, All The Poor & Powerless, Great I Am, Anchor, In Tenderness, Came To My Rescue, Oceans, Amazing Grace, Set a Fire [Live]. Chapel's mission is to invite and unite a generation of young people to see God move in our city. Through passionate worship, inspiring and convicting messages, and a community of awesome people, we are taking a bold stand for Jesus as one voice.";
   
@@ -11,7 +11,7 @@
   
     <div id="music" class="content clearfix">
       <div class="pane-left">
-        <img class="title" src="/img/text-music.png" alt="Music">
+        <img class="title" src="/img/text-album.png" alt="Album">
       </div>
 
       <div class="pane-right center"> 
