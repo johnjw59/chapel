@@ -18,8 +18,8 @@
 
       <div class="pane-left clearfix">
         <div class="logo-labels clearfix">
-          <img class="title" src="/img/logo-richmond.png" alt="Chapel Richmond" onload="dynamicHeight();" />
-          <img class="label" src="/img/label-upcoming.png" alt="Upcoming Chapels" />
+          <img class="title" src="/img/logo-richmond.svg" alt="Chapel Richmond" onload="dynamicHeight();" />
+          <img class="label" src="/img/label-upcoming.svg" alt="Upcoming Chapels" />
         </div>
   
         <div id="upcoming">
@@ -45,7 +45,7 @@
       </div><!-- end of left -->
 
       <div class="pane-right">
-        <img class="label" src="/img/label-community.png" alt="Community" />
+        <img class="label" src="/img/label-community.svg" alt="Community" />
         <h2>
           Want to keep up with Chapel Richmond?<br /> 
           Join our <a href="http://www.facebook.com/" target="_blank">Facebook Group</a>.
@@ -54,8 +54,9 @@
           $custom = array(
             'id' => '',
           );
-          fbFeed($settings, $custom);
+          // fbFeed($settings, $custom);
         ?>
+        <br />
       </div><!-- end of right -->
     </div><!-- end of content -->
 
