@@ -10,8 +10,8 @@
 ?>
 
 		<div id="front">
-				<img id="text" src="/img/text-front.png" onload="verticalCenter();" alt="Chapel; inviting and uniting a generation to see God move in our city." />
-				<img id="logo" src="/img/logo.png" alt="Chapel" />
+				<img id="text" src="/img/text-front.svg" onload="verticalCenter();" alt="Chapel; inviting and uniting a generation to see God move in our city." />
+				<img id="logo" src="/img/logo.svg" alt="Chapel" />
 		</div>
 		
 	  <?php require_once('inc/social.inc'); ?>

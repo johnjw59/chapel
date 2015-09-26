@@ -10,7 +10,7 @@
   
     <div id="about" class="content clearfix">
       <div class="pane-left">
-        <img class="title" src="/img/text-give.png" alt="Give" />
+        <img class="title" src="/img/text-give.svg" alt="Give" style="width: 65%; padding-left: 15%;" />
       </div>
 
       <div class="pane-right">

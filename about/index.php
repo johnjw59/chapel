@@ -10,7 +10,7 @@
   
     <div id="about" class="content clearfix">
       <div class="pane-left">
-        <img class="title" src="/img/text-about.png" alt="About" />
+        <img class="title" src="/img/text-about.svg" alt="About" />
       </div>
 
       <div class="pane-right">

@@ -11,7 +11,7 @@
   
     <div id="music" class="content clearfix">
       <div class="pane-left">
-        <img class="title" src="/img/text-album.png" alt="Album">
+        <img class="title" src="/img/text-album.svg" alt="Album">
       </div>
 
       <div class="pane-right center"> 

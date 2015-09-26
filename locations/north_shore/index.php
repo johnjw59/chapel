@@ -18,8 +18,8 @@
 
       <div class="pane-left">
         <div class="logo-labels clearfix">
-          <img class="title" src="/img/logo-north_shore.png" alt="Chapel North Shore" onload="dynamicHeight();" />
-          <img class="label" src="/img/label-upcoming.png" alt="Upcoming Chapels" />
+          <img class="title" src="/img/logo-north_shore.svg" alt="Chapel North Shore" onload="dynamicHeight();" />
+          <img class="label" src="/img/label-upcoming.svg" alt="Upcoming Chapels" />
         </div>
   
         <div id="upcoming">
@@ -45,7 +45,7 @@
       </div><!-- end of left -->
 
       <div class="pane-right">
-        <img class="label" src="/img/label-community.png" alt="Community" />
+        <img class="label" src="/img/label-community.svg" alt="Community" />
         <h2>
           Want to keep up with Chapel North Shore?<br /> 
           Join our <a href="http://www.facebook.com/520834214713287" target="_blank">Facebook Group</a>.
